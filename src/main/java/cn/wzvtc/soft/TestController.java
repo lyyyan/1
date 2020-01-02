@@ -17,7 +17,6 @@ import java.util.Map;
 @RestController
 public class TestController {
 
-
     @Autowired
     LvliRepository lvliRepository;
 

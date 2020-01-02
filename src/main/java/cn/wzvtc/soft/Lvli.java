@@ -18,6 +18,19 @@ public class Lvli {
     public Lvli(){
 
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
     public Lvli(String number, String url) {
         this.number = number;
         this.url = url;
